@@ -1,11 +1,11 @@
-const SideBar = ({ data }) => {
+const Country = ({data}) => {
     return (
-        <div className="sidebar">
+        <div className="country">
             {data.map(breed => {
                 return (
                     <div>
-                        <p> {breed.breed} </p>
                         <hr></hr>
+                        <p> {breed.origin} </p>
                     </div>
                 )
             })}
@@ -13,5 +13,4 @@ const SideBar = ({ data }) => {
     )
 }
 
-
-export default SideBar;
+export default Country;
