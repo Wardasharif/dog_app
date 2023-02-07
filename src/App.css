@@ -9,16 +9,7 @@ body {
    width: 100;
 }
 
-.dog-card img {
-   width: 100%;
-   height: 400px;
-   object-fit: scale-down;
-}
 
-.dog-card {
-   margin: 5px 5px;
-   height: auto;
-   background: hsla(17, 100%, 76%, 1);
 
 background: linear-gradient(90deg, hsla(17, 100%, 76%, 1) 0%, hsla(0, 0%, 100%, 1) 34%, hsla(0, 0%, 100%, 1) 92%, hsla(17, 100%, 76%, 1) 100%);
 

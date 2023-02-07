@@ -1,8 +1,7 @@
-const Personality = ({personality}) => {
-    return (
-        <li> {personality} </li>
-    )
+const Personality = ({ personality }) => {
+  return <li> {personality} </li>
 }
 
+export default Personality
 
-export default Personality;
+hi
