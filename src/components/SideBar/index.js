@@ -5,6 +5,7 @@ const SideBar = ({ data }) => {
         return (
           <div>
             <p> {breed.breed} </p>
+            <hr></hr>
           </div>
         )
       })}
