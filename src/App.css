@@ -1,4 +1,90 @@
+#root {
+   --bg-color: #F7EBE8;
+   background-color: var(--bg-color);
+   --ft-color: #444140;
+}
+
 body {
    margin: 0;
-   width:100;
+   width: 100;
+}
+
+.dog-card img {
+   width: 100%;
+   height: 400px;
+   object-fit: scale-down;
+}
+
+.dog-card {
+   margin: 5px 5px;
+   height: auto;
+   background: hsla(17, 100%, 76%, 1);
+
+background: linear-gradient(90deg, hsla(17, 100%, 76%, 1) 0%, hsla(0, 0%, 100%, 1) 34%, hsla(0, 0%, 100%, 1) 92%, hsla(17, 100%, 76%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(17, 100%, 76%, 1) 0%, hsla(0, 0%, 100%, 1) 34%, hsla(0, 0%, 100%, 1) 92%, hsla(17, 100%, 76%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(17, 100%, 76%, 1) 0%, hsla(0, 0%, 100%, 1) 34%, hsla(0, 0%, 100%, 1) 92%, hsla(17, 100%, 76%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFA987", endColorstr="#FFFFFF", GradientType=1 );
+}
+
+/*
+.dogs {
+   display: grid;
+   grid-template-columns: 400px 400px 400px;
+} */
+
+.dog-card {
+   height: 750px;
+}
+
+.dog-card h5 {
+   background-color: #E54B4B;
+   padding: 10px 0px;
+   margin: 20px 0px;
+}
+
+.dog-card ul li {
+   display: inline-flex;
+   padding: 0px 5px;
+   margin: 5px 10px;
+   background-color: #F7EBE8;
+   border-radius: 32%;
+   font-weight: 400;
+   
+}
+.dog-card p {
+   font-weight: 600;
+   color: var(--ft-color);
+}
+.dog-header {
+   padding: 0px 10px;
+   border-left: none;
+   border-right: none;
+   color:#E54B4B;
+   font-weight: 700;
+   font-size: larger;
+}
+.big-header {
+   font-size: 60px;
+   color: #e54b4b;
+   text-align: center;
+   padding-bottom: 40px;
+}
+
+.sidebar, .country {
+   padding-top: 20px;
+   color: #E54B4B;
+}
+
+.sidebar p, .country p {
+   padding: 30px 0px;
+}
+
+.navi h3 {
+   background-color: white;
+   border: 3px solid rgb(255, 255, 255);
+   padding: 5px 0px;
+   color: #E54B4B;
 }
