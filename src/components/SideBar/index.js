@@ -13,4 +13,4 @@ const SideBar = ({ data }) => {
   )
 }
 
-export default SideBar
+export default 
