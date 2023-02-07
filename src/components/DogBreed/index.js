@@ -20,7 +20,7 @@ const DogBreed = ({ breed }) => {
     )
 }
 
-export default DogBreed;
+export default ;
 
 /*
  {
