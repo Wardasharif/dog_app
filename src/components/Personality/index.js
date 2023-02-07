@@ -3,5 +3,3 @@ const Personality = ({ personality }) => {
 }
 
 export default Personality
-
-hi

@@ -9,7 +9,7 @@ const App = () => {
     <div className="container" style={{ textAlign: 'center' }}>
       <h2 className="big-header" style={{ textAlign: 'center' }}>
         {' '}
-        <hr></hr> Welcome to my dog friendly page <hr></hr>
+        <hr></hr> Welcome to my dog friendly website <hr></hr>
       </h2>
       <div className="dogs row">
         <div className="col col-4 navi">
